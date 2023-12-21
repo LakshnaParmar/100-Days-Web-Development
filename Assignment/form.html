@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Form (lakshna)</title>
+</head>
+<body>
+
+<h2>Contect Form</h2>
+
+<form action="/xyz" method="post">
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+  </div><br>
+
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  </div><br>
+
+  <div class="form-group">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+  </div><br>
+   
+  <div class="form-group">
+    <label for="number">number</label>
+    <input type="number" id="number" name="number">
+    </div>
+    <br>
+
+  <div class="form-group">
+    <label for="birthdate">Birthdate:</label>
+    <input type="date" id="birthdate" name="birthdate">
+  </div><br>
+
+  <div class="form-group">
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="2" cols="50"></textarea>
+  </div><br>
+
+  <div class="form-group">
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+  </div><br>
+
+   <h5>Select Sift</h5>
+  <select name=" Select Sift" id=" Select Sift">
+<option value="morning">morning</option>
+<option value="evening">evening</option>
+
+  </select><br>
+  <br>
+  <div class="form-group">
+    <label for="file">Upload File:</label>
+    <input type="file" id="file" name="file">
+  </div><br>
+
+  <div class="form-group">
+    <input type="submit" value="Submit">
+  </div><br>
+</form>
+
+</body>
+</html>
