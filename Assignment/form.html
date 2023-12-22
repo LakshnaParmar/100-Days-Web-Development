@@ -1,72 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Form (lakshna)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment(Lakshna)</title>
+<link rel="stylesheet" href="/Assignment/form.css">
 </head>
 <body>
+    <h1>Feedback Form</h1>
+    <form action="/xyz" method="post">
+        <div class="Assignment">
+            <label for="name">First Name :</label>
+            <input type="text" id="name" name="name"placeholder="Enter name here" required>
+        </div>
+        
+        <div class="Assignment">
+            <label for="Surname">Surname :</label>
+            <input type="text" name="Surname" id="Surname" placeholder="Enter surname here" required>
+        </div>
+        <div class="Assignment">
+            <label for="male"></label>
+            <input type="radio" name="gender" id="Male" value="Male">Male<br>
+            <label for="Female"></label>
+            <input type="radio" name="gender" id="Female" value="Female">Female
+        </div>
+        <div class="Assignment">
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" placeholder="Email Address">
+        </div>
+        
+        <div class="Assignment">
+            <label for="Comment">Comment :</label>
+            <textarea name="Comment" id="Comment" cols="50" rows="5"></textarea>
+        </div>
 
-<h2>Contect Form</h2>
+        <div class="Assignment">
+            <select name="Select Profession" id="Select Profession">
+                <option value="Teacher">Teacher</option>
+                <option value="Computer Programmer">Computer Programmer</option>
+                <option value="">Office Worker</option>
+                <option value="Reseptionist">Reseptionist</option>
+                <option value="Casheir">Casheir</option>
+            </select>
 
-<form action="/xyz" method="post">
-  <div class="form-group">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-  </div><br>
+        </div>
+        <div class="Assignment">
+        <button type="submit">Send Feedback</button>
+        </div>
 
-  <div class="form-group">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-  </div><br>
-
-  <div class="form-group">
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required>
-  </div><br>
-   
-  <div class="form-group">
-    <label for="number">number</label>
-    <input type="number" id="number" name="number">
-    </div>
-    <br>
-
-  <div class="form-group">
-    <label for="birthdate">Birthdate:</label>
-    <input type="date" id="birthdate" name="birthdate">
-  </div><br>
-
-  <div class="form-group">
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="2" cols="50"></textarea>
-  </div><br>
-
-  <div class="form-group">
-    <label for="gender">Gender:</label>
-    <input type="radio" id="male" name="gender" value="male">
-    <label for="male">Male</label>
-    <input type="radio" id="female" name="gender" value="female">
-    <label for="female">Female</label>
-    <input type="radio" id="other" name="gender" value="other">
-    <label for="other">Other</label>
-  </div><br>
-
-   <h5>Select Sift</h5>
-  <select name=" Select Sift" id=" Select Sift">
-<option value="morning">morning</option>
-<option value="evening">evening</option>
-
-  </select><br>
-  <br>
-  <div class="form-group">
-    <label for="file">Upload File:</label>
-    <input type="file" id="file" name="file">
-  </div><br>
-
-  <div class="form-group">
-    <input type="submit" value="Submit">
-  </div><br>
-</form>
-
+        <div class="Assignment">
+        <button type="reset">Reset</button>
+        </div>
+    </form>
 </body>
 </html>
