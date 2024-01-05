@@ -1,0 +1,12 @@
+   
+links for icons.
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<i class="fa-solid fa-magnifying-glass"></i> (search)
+<i class="fa-thin fa-phone"></i>             (phone)
+<i class="fa-thin fa-comment"></i>           (comment)
+<i class="fa-light fa-gear"></i>             (setting)
+<i class="fa-brands fa-google"></i>          (google)
+<i class="fa-brands fa-square-facebook"></i> (facebook)
+<i class="fa-brands fa-instagram"></i>       (instagram)
+<i class="fa-brands fa-twitter"></i>         (twitter)
