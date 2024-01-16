@@ -2,7 +2,8 @@
   "version": 2,
   "builds": [
     {
-      "src": "public/**/*",
+      "src": "/100-Days-Web-Development/Assignment/Rar assignment/
+/Rar assignment/",
       "use": "@vercel/static-build",
       "config": {
         "zeroConfig": true
